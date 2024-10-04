@@ -2,21 +2,30 @@ import React, { useState } from "react";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 const Papers = () => {
+  const images = require.context("./images", false, /\.(png|jpe?g|svg)$/);
+
+  const getImage = (imageName) => {
+    try {
+      return images(`./${imageName}`);
+    } catch (error) {
+      console.error(`Error al cargar la imagen: ${imageName}`, error);
+      return null;
+    }
+  };
   const papers = [
     {
       title: "Teaching LLMs to use tools",
-      file: "https://github.com/Engleonardorm7/Portfolio/blob/React/portfolio/static/portfolio/TeachingLLMstousetools.pdf",
+      file: "pdfs/TeachingLLMstousetools.pdf",
       description:
         "Large Language Models (LLMs) have allowed the development in various fields due to their natural language understanding capabilities, demonstrating proficiency in tasks related to understanding images, text, and audio. However, providing LLMs with the ability to interact with tools could significantly expand their abilities in other fields...",
-      imageUrl: "http://localhost:8000/media/portfolio/images/TeachingLLMs.png",
+      imageUrl: getImage("TeachingLLMs.png"),
     },
     {
       title: "Applications of Transformer Models",
-      file: "https://github.com/Engleonardorm7/Portfolio/blob/React/portfolio/static/portfolio/ApplicationsofTransformerModels.pdf",
+      file: "./pdfs/ApplicationsofTransformerModels.pdf",
       description:
         "Over the last few years, transformers have significantly impacted the field of artificial intelligence, allowing the development of technologies such as Large Language Models (LLMs), which have demonstrated remarkable performance in understanding natural language. These models have facilitated the development of innovative applications in different fields, including text, audio, and image processing...",
-      imageUrl:
-        "http://localhost:8000/media/portfolio/images/ApplicationsofTransformerModels.png",
+      imageUrl: getImage("ApplicationsofTransformerModels.png"),
     },
   ];
 

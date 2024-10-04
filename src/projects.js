@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import {
   SiPython,
   SiFlask,
@@ -14,14 +14,25 @@ import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 const Projects = () => {
   const [currentProjectIndex, setCurrentProjectIndex] = useState(0);
+
+  const images = require.context("./images", false, /\.(png|jpe?g|svg)$/);
+
+  const getImage = (imageName) => {
+    try {
+      return images(`./${imageName}`);
+    } catch (error) {
+      console.error(`Error al cargar la imagen: ${imageName}`, error);
+      return null;
+    }
+  };
+
   const projects = [
     {
       title: "Robot for Elevator Button Detection",
       description:
         "This project controls the Niryo Ned2 robotic arm using a YOLO image detection model to detect and press elevator buttons",
       url: "https://github.com/Engleonardorm7/Elevator-Botton-Arm-Control",
-      image:
-        "https://github.com/Engleonardorm7/Portfolio/blob/Deploy/media/portfolio/images/Ned2.2.jpg?raw=true",
+      image: getImage("Ned2.2.jpg"),
       tools_box: ["python"],
     },
     {
@@ -29,8 +40,7 @@ const Projects = () => {
       description:
         "This project focuses on teaching large language models (LLMs) to use PowerPoint",
       url: "https://github.com/Engleonardorm7/Teaching-LLMs-to-use-tools",
-      image:
-        "https://github.com/Engleonardorm7/Portfolio/blob/Deploy/media/portfolio/images/LLMs.png?raw=true",
+      image: getImage("LLMs.png"),
       tools_box: ["python"],
     },
     {
@@ -38,8 +48,7 @@ const Projects = () => {
       description:
         "This project is a To-Do List App developed as part of my practice using React and Tailwind CSS. The application allows users to create, delete, and mark tasks as completed, offering a clean and styled interface.",
       url: "https://github.com/Engleonardorm7/TodoList",
-      image:
-        "https://github.com/Engleonardorm7/Portfolio/blob/React/media/portfolio/images/Todo-React2.jpg?raw=true",
+      image: getImage("Todo-React2.jpg"),
       tools_box: ["react", "tailwind"],
     },
     {
@@ -47,8 +56,7 @@ const Projects = () => {
       description:
         "Restaurant website created with Django with the option to reserve a table and see the dishes offered",
       url: "https://github.com/Engleonardorm7/Restaurant-website",
-      image:
-        "https://github.com/Engleonardorm7/Portfolio/blob/Deploy/media/portfolio/images/restaurantproject.png?raw=true",
+      image: getImage("restaurantproject.png"),
       tools_box: ["django", "python", "html"],
     },
     {
@@ -56,8 +64,7 @@ const Projects = () => {
       description:
         "Program created using selenium to extract articles from certain sections of https://www.bbc.com/news",
       url: "https://github.com/Engleonardorm7/Python-Developer-test/blob/main/3.py",
-      image:
-        "https://github.com/Engleonardorm7/Portfolio/blob/main/media/portfolio/images/scrapping%20from%20bbc.png?raw=true",
+      image: getImage("Extractbbcarticle.png"),
       tools_box: ["python"],
     },
     {
@@ -65,8 +72,7 @@ const Projects = () => {
       description:
         "Script created for Transfer all compatible fields from a GitHub User to the Freshdesk Contact",
       url: "https://github.com/Engleonardorm7/Python-Developer-test/tree/main/4",
-      image:
-        "https://github.com/Engleonardorm7/Portfolio/blob/main/media/portfolio/images/github-freshdesk.png?raw=true",
+      image: getImage("github-freshdesk.png"),
       tools_box: ["python"],
     },
     {
@@ -74,8 +80,7 @@ const Projects = () => {
       description:
         "Script created using scraping to download the content of a web page and translate it into Hindi",
       url: "https://github.com/Engleonardorm7/html-to-hindi-translator",
-      image:
-        "https://github.com/Engleonardorm7/Portfolio/blob/main/media/portfolio/images/Hindi.png?raw=true",
+      image: getImage("Extractbbcarticle.png"),
       tools_box: ["python"],
     },
     {
@@ -83,8 +88,7 @@ const Projects = () => {
       description:
         "This project is a REST API made with FastAPI. To create, read, update and delete movies.",
       url: "https://github.com/Engleonardorm7/Movies_CRUD_FastAPI",
-      image:
-        "https://github.com/Engleonardorm7/Portfolio/blob/Deploy/media/portfolio/images/Movies-CRUD-API.png?raw=true",
+      image: getImage("Movies-CRUD-API.png"),
       tools_box: ["fastAPI", "python"],
     },
     {
@@ -92,16 +96,14 @@ const Projects = () => {
       description:
         "A Flask application that allows the user to perform basic tasks on a todo list.",
       url: "https://github.com/Engleonardorm7/Flask",
-      image:
-        "https://github.com/Engleonardorm7/Portfolio/blob/Deploy/media/portfolio/images/TO_DO_LIST.png?raw=true",
+      image: getImage("TO_DO_LIST.png"),
       tools_box: ["Flask", "python"],
     },
     {
       title: "Survey",
       description: "Survey on the consumption of different types of protein",
       url: "https://github.com/Engleonardorm7/Survery-Django",
-      image:
-        "https://github.com/Engleonardorm7/Portfolio/blob/Deploy/media/portfolio/images/Survey_Django_N0rYy4H.png?raw=true",
+      image: getImage("Survey_Django3.png"),
       tools_box: ["django", "python", "html"],
     },
     {
@@ -109,16 +111,14 @@ const Projects = () => {
       description:
         "This is a twitter api clone developed in FastAPI Features included: Data validation, CRUD of users, CRUD of Tweets.",
       url: "https://github.com/Engleonardorm7/Twitter-API-FastApi",
-      image:
-        "https://github.com/Engleonardorm7/Portfolio/blob/Deploy/media/portfolio/images/Twitter_API.png?raw=true",
+      image: getImage("Twitter_API.png"),
       tools_box: ["django", "fastAPI"],
     },
     {
       title: "Weight tracking",
       description: "This is a weight tracking project using django",
       url: "https://github.com/Engleonardorm7/Django/tree/main/Gym_progression",
-      image:
-        "https://github.com/Engleonardorm7/Portfolio/blob/Deploy/media/portfolio/images/gym_progression.png?raw=true",
+      image: getImage("gym_progression.png"),
       tools_box: ["django", "python", "html"],
     },
     {
@@ -126,8 +126,7 @@ const Projects = () => {
       description:
         "This is a Django REST API that allows you to interact with a simple restaurant management system.",
       url: "https://github.com/Engleonardorm7/RestaurantProjectAPI",
-      image:
-        "https://github.com/Engleonardorm7/Portfolio/blob/Deploy/media/portfolio/images/Restaurant_API.png?raw=true",
+      image: getImage("Restaurant_API.png"),
       tools_box: ["django", "python"],
     },
     {
@@ -135,8 +134,7 @@ const Projects = () => {
       description:
         "This API can process over 500 grades within a matter of seconds.",
       url: "https://github.com/Engleonardorm7/Canvas-API",
-      image:
-        "https://github.com/Engleonardorm7/Portfolio/blob/main/media/portfolio/images/scrapping%20from%20bbc.png?raw=true",
+      image: getImage("Extractbbcarticle.png"),
       tools_box: ["python"],
     },
     {
@@ -144,8 +142,7 @@ const Projects = () => {
       description:
         "Web page for project showcase with image upload and tool selection for portfolio display.",
       url: "https://github.com/Engleonardorm7/Portfolio",
-      image:
-        "https://github.com/Engleonardorm7/Portfolio/blob/Deploy/media/portfolio/images/Portfolio.png?raw=true",
+      image: getImage("Portfolio.png"),
       tools_box: ["django", "python", "html"],
     },
   ];
