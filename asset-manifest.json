@@ -1,15 +1,39 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.6811cbf0.css",
-    "main.js": "/ReactPortfolio/static/js/main.5c753495.js",
+    "main.css": "/ReactPortfolio/static/css/main.461dfde9.css",
+    "main.js": "/ReactPortfolio/static/js/main.83cb3fe8.js",
     "static/js/453.8ab44547.chunk.js": "/ReactPortfolio/static/js/453.8ab44547.chunk.js",
+    "static/media/Sin_título2.png": "/ReactPortfolio/static/media/Sin_título2.5b6fd05fb3de81e07759.png",
+    "static/media/shutterstock_605291450.jpg": "/ReactPortfolio/static/media/shutterstock_605291450.ee8e493624ec57966abe.jpg",
+    "static/media/TeachingLLMs.png": "/ReactPortfolio/static/media/TeachingLLMs.32fc4d4827edb15b85ea.png",
+    "static/media/ApplicationsofTransformerModels.png": "/ReactPortfolio/static/media/ApplicationsofTransformerModels.1c68cd9beb3372339dd7.png",
+    "static/media/restaurantproject.png": "/ReactPortfolio/static/media/restaurantproject.986f49b5dc41402ee60e.png",
+    "static/media/Ned2.2.jpg": "/ReactPortfolio/static/media/Ned2.2.1117fdc93fe77ffd53fd.jpg",
+    "static/media/Extractbbcarticle.png": "/ReactPortfolio/static/media/Extractbbcarticle.0de337bb6c5624b596c6.png",
+    "static/media/Todo-React.jpg": "/ReactPortfolio/static/media/Todo-React.1837564650c7203e626b.jpg",
+    "static/media/Survey_Django.png": "/ReactPortfolio/static/media/Survey_Django.e0078551c9a7a7bd4b12.png",
+    "static/media/Survey_Django3.png": "/ReactPortfolio/static/media/Survey_Django3.e0078551c9a7a7bd4b12.png",
+    "static/media/Portfolio.png": "/ReactPortfolio/static/media/Portfolio.d9c7e56665774a9577e3.png",
+    "static/media/Todo-React2.jpg": "/ReactPortfolio/static/media/Todo-React2.50ee448ec6dea0c32f78.jpg",
+    "static/media/Survey_Django2.png": "/ReactPortfolio/static/media/Survey_Django2.dbeea806190a0e7b0682.png",
+    "static/media/Survey_Django22.png": "/ReactPortfolio/static/media/Survey_Django22.dbeea806190a0e7b0682.png",
+    "static/media/github-freshdesk.png": "/ReactPortfolio/static/media/github-freshdesk.1c4d7b14f1e49e8d9890.png",
+    "static/media/LLMs.png": "/ReactPortfolio/static/media/LLMs.fa7bf9692beb8c49907e.png",
+    "static/media/Restaurant_API.png": "/ReactPortfolio/static/media/Restaurant_API.cfad58b3db2c31e80c84.png",
+    "static/media/Twitter_API.png": "/ReactPortfolio/static/media/Twitter_API.886b9b41ac0afb4d6f8a.png",
+    "static/media/Movies-CRUD-API.png": "/ReactPortfolio/static/media/Movies-CRUD-API.5a98d9fed25c74680eaf.png",
+    "static/media/Restaurant_corta_API.png": "/ReactPortfolio/static/media/Restaurant_corta_API.0471ab0c4b59c72af097.png",
+    "static/media/Restaurant_corta_API_hHA3ZPs.png": "/ReactPortfolio/static/media/Restaurant_corta_API_hHA3ZPs.0471ab0c4b59c72af097.png",
+    "static/media/gym_progression.png": "/ReactPortfolio/static/media/gym_progression.87dba236131dd8fbbdea.png",
+    "static/media/gym_progression_yDQJr1E.png": "/ReactPortfolio/static/media/gym_progression_yDQJr1E.87dba236131dd8fbbdea.png",
+    "static/media/TO_DO_LIST.png": "/ReactPortfolio/static/media/TO_DO_LIST.6400b61746f9e5429490.png",
     "index.html": "/ReactPortfolio/index.html",
-    "main.6811cbf0.css.map": "/ReactPortfolio/static/css/main.6811cbf0.css.map",
-    "main.5c753495.js.map": "/ReactPortfolio/static/js/main.5c753495.js.map",
+    "main.461dfde9.css.map": "/ReactPortfolio/static/css/main.461dfde9.css.map",
+    "main.83cb3fe8.js.map": "/ReactPortfolio/static/js/main.83cb3fe8.js.map",
     "453.8ab44547.chunk.js.map": "/ReactPortfolio/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6811cbf0.css",
-    "static/js/main.5c753495.js"
+    "static/css/main.461dfde9.css",
+    "static/js/main.83cb3fe8.js"
   ]
 }
