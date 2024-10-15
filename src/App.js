@@ -115,7 +115,7 @@ const Portfolio = () => {
               <FaGithub className="social-icon" />
             </a>
             <a
-              href="https://github.com/Engleonardorm7/Portfolio/blob/React/portfolio/static/portfolio/CV.pdf"
+              href="/pdfs/CV.pdf"
               className="cv-button"
               title="Download CV"
               download="Leonardo_Rodriguez_CV.pdf"
