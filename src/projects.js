@@ -40,7 +40,7 @@ const Projects = () => {
       description:
         "A full-stack automated parking management system built with YOLO and OCR for license plate detection and recognition, Flask for backend processing, and React for a dynamic frontend interface.",
       url: "https://github.com/Engleonardorm7/License-Plate-Detection",
-      image: getImage("LicensePlateDetection.jpg"),
+      image: getImage("LicensePlateDetection.png"),
       tools_box: ["python"],
     },
     {
