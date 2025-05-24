@@ -27,6 +27,22 @@ const Projects = () => {
   };
 
   const projects = [
+       {
+      title: "PPT-AI: AI-Powered Presentation Generator",
+      description:
+        "PPT-AI is a smart chatbot that uses a fine-tuned LLM to create PowerPoint presentations automatically.",
+      url: "https://github.com/Engleonardorm7/PPT-AI-AI-Powered-Presentation-Generator",
+      image: getImage("PPT-AI.jpg"),
+      tools_box: ["python"],
+    },
+    {
+      title: "License Plate Detection System",
+      description:
+        "A full-stack automated parking management system built with YOLO and OCR for license plate detection and recognition, Flask for backend processing, and React for a dynamic frontend interface.",
+      url: "https://github.com/Engleonardorm7/License-Plate-Detection",
+      image: getImage("LicensePlateDetection.jpg"),
+      tools_box: ["python"],
+    },
     {
       title: "Robot for Elevator Button Detection",
       description:
