@@ -4,6 +4,16 @@ import { FaBriefcase, FaCalendarAlt } from "react-icons/fa";
 const Timeline = () => {
   const timelineData = [
     {
+      date: "03/2025- Present",
+      title: "AI-Based Prediction of Tools from 3D Models",
+      company: "Gruner",
+    },
+    {
+      date: "10/2024 – 02/2025",
+      title: "Student Research Assistant",
+      company: "Institute for Information Systems at Hof University of Applied Sciences",
+    },
+    {
       date: "3/2024",
       title: "Master's student in Artificial Intelligence and Robotics.",
       company: "Hochschule Hof, Germany",

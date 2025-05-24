@@ -94,11 +94,11 @@ const Portfolio = () => {
             <FaCircle className="icon" color="green" />
             <span>Available for work</span>
           </div>
-          <h2 className="subtitle"> AI and Web Developer</h2>
+          <h2 className="subtitle"> AI Engineer & Applied Machine Learning Developer</h2>
           <p className="description">
-            Mechatronics Engineer with over 8 years of experience in various
-            engineering fields and a passion for programming, currently pursuing
-            a Master's in{" "}
+            Mechatronics Engineer with 9+ years of interdisciplinary experience and hands-on skills 
+            in backend development and applied AI. 
+            Currently finalizing a Master’s in{" "}
             <span className="highlight">
               Artificial Intelligence and Robotics
             </span>{" "}
@@ -142,26 +142,16 @@ const Portfolio = () => {
         <div className="about">
           <h1>About me</h1>
           <p className="about-description">
-            I am a Mechatronic Engineer with over eight years of experience
-            across diverse areas within mechatronics. Currently, I am pursuing a
-            Master’s degree in Artificial Intelligence and Robotics, which
-            aligns with my deep passion for technology and innovation.
+            I’m a Mechatronics Engineer with over nine years of experience and currently finishing a Master’s in Artificial Intelligence and Robotics in Germany. I specialize in AI development and backend systems, with a strong interest in building intelligent and scalable solutions.
           </p>
 
           <p className="about-description">
-            With a strong focus on programming, I am seeking opportunities that
-            allow me to combine my expertise in software development with my
-            interests in AI and robotics. My technical foundation includes
-            proficiency in programming languages such as Python, Java, C/C++,
-            and JavaScript, alongside hands-on experience with frameworks like
-            Django, Flask, FastAPI, and React.
+           My skill set includes Python, Java, C/C++, JavaScript, PyTorch, NumPy, Pandas, and tools like LangChain, FastAPI, Flask, and Docker. I’ve worked on projects involving LLMs, computer vision, and 3D model analysis, combining data preprocessing, training, and deployment. I also have experience developing full-stack web applications using Django, React, and PostgreSQL.
           </p>
 
           <p className="about-description">
             {" "}
-            I am eager to leverage my technical background, problem-solving
-            skills, and enthusiasm for emerging technologies to contribute
-            meaningfully to a forward-thinking team and drive impactful results.
+            I’m eager to apply my technical foundation, problem-solving mindset, and passion for emerging technologies to contribute meaningfully to a forward-thinking team.
           </p>
           <a href="mailto:leonardorm7@hotmail.com" className="contact-btn">
             Contact
@@ -169,7 +159,7 @@ const Portfolio = () => {
         </div>
       </section>
       <footer className="footer">
-        <p>&copy; 2024 Leonardo Rodriguez.</p>
+        <p>&copy; 2025 Leonardo Rodriguez.</p>
         <div className="footer-links">
           <a
             href="https://www.linkedin.com/in/leonardo-rodriguez7"

@@ -261,7 +261,7 @@
   position: absolute;
   width: 4px;
   background-color: #6c63ff;
-  top: 16%;
+  top: 13%;                         /* parameter to modify height of the vertical line */
   bottom: 3%;
   left: 50%;
   margin-left: -2px;

@@ -14,6 +14,21 @@ const Papers = () => {
   };
   const papers = [
     {
+      title: "License Plate Detection and Recognition for Automatic Parking Lots",
+      file: "pdfs/License_Plate_Detection_and_Recognition.pdf",
+      description:
+        "Automated parking lots have gained popularity since they are faster than manual or semi-automated parking lots. At the same time, they are more convenient for users who do not have to keep a ticket or a card that can be lost. However, automated systems implement special cameras designed specifically for license plate detection. In this project...",
+      imageUrl: getImage("License_Plate_Detection_and_Recognition.png"),
+    },
+    {
+      title: "Predictive maintenance",
+      file: "pdfs/Predictive_Maintenance.pdf",
+      description:
+        "Predictive maintenance plays an important role in industries, as manufacturing companies often incur significant maintenance expenses and suffer financial losses due to unexpected machine failures. These failures lead to breakdowns that negatively impact overall company efficiency. Therefore, it is important to implement systems capable of predicting...",
+      imageUrl: getImage("Predictive_Maintenance.png"),
+    },
+
+    {
       title: "Teaching LLMs to use tools",
       file: "pdfs/TeachingLLMstousetools.pdf",
       description:
